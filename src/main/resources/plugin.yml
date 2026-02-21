@@ -1,0 +1,13 @@
+name: ExtractionChest
+version: "${project.version}"
+main: com.criztiandev.extractionchest.ExtractionChestPlugin
+api-version: "1.21"
+author: criztiandev
+description: A Minecraft plugin for extraction chest mechanics.
+website: https://github.com/criztiandev/extraction-chest
+
+commands:
+  extractionchest:
+    description: Main command for ExtractionChest.
+    usage: /extractionchest [args]
+    aliases: [ec]

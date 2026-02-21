@@ -1,0 +1,39 @@
+# Maven build output
+target/
+dependency-reduced-pom.xml
+
+# Compiled Java classes
+*.class
+
+# JAR / WAR / EAR packages
+*.jar
+*.war
+*.ear
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.eclipse/
+.settings/
+.classpath
+.project
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,33 @@
+{
+  "name": "extraction-chest",
+  "version": "1.0.0",
+  "description": "Minecraft plugin development tooling for ExtractionChest",
+  "private": true,
+  "scripts": {
+    "build": "mvn clean package -q",
+    "build:verbose": "mvn clean package",
+    "test": "mvn test -q",
+    "test:verbose": "mvn test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{json,yml,yaml,md,xml,properties}": [
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "minecraft",
+    "plugin",
+    "paper",
+    "spigot"
+  ],
+  "author": "criztiandev",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "prettier": "^3.4.2"
+  }
+}

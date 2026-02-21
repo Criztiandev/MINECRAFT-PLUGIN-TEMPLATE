@@ -1,0 +1,7 @@
+# ExtractionChest Configuration
+# Plugin version: ${project.version}
+
+# General settings
+settings:
+  debug: false
+  prefix: "&8[&bExtractionChest&8]&r"
