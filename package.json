@@ -1,11 +1,11 @@
 {
   "name": "extraction-chest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minecraft plugin development tooling for ExtractionChest",
   "private": true,
   "scripts": {
-    "build": "mvn clean package -q",
-    "build:verbose": "mvn clean package",
+    "build": "node scripts/bump.js && mvn clean package -q",
+    "build:verbose": "node scripts/bump.js && mvn clean package",
     "test": "mvn test -q",
     "test:verbose": "mvn test",
     "format": "prettier --write .",
